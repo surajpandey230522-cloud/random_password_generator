@@ -3,11 +3,12 @@
 
 let screen=document.querySelector("#screen")
 let button=document.querySelector("button")
+let refresh=document.querySelector("#refresh")
 
 
 class password{
    constructor(){
-      alert("welcome to password generator")
+      alert("welcome to password genarator")
       this.pass=""
    }
    genaratePassword(len){
@@ -38,4 +39,8 @@ let p=new password()
 
 button.addEventListener("click", () => {
     screen.innerText = p.genaratePassword(8);
+});
+
+refresh.addEventListener("click", () => {
+    location.reload();
 });
