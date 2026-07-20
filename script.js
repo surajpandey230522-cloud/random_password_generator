@@ -7,7 +7,7 @@ let button=document.querySelector("button")
 
 class password{
    constructor(){
-      alert("welcome to password genarator")
+      alert("welcome to password generator")
       this.pass=""
    }
    genaratePassword(len){
