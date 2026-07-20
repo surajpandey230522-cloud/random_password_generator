@@ -43,4 +43,5 @@ button.addEventListener("click", () => {
 
 refresh.addEventListener("click", () => {
     location.reload();
+   alert("thanks for visit")
 });
