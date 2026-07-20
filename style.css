@@ -33,3 +33,11 @@ button{
     border-radius: .5rem;
     height: 40px;
 }
+ 
+#refresh{
+    font-size: large;
+    font-weight: bold;
+    border-radius: .5rem;
+    height: 40px;
+    margin-top: 4px;
+}
