@@ -3,7 +3,7 @@
 
 let screen=document.querySelector("#screen")
 let button=document.querySelector("button")
-let refresh=document.querySelector("#refresh")
+let clearBtn = document.querySelector("#clear");
 
 
 class password{
@@ -41,7 +41,7 @@ button.addEventListener("click", () => {
     screen.innerText = p.genaratePassword(8);
 });
 
-refresh.addEventListener("click", () => {
-    location.reload();
-   alert("thanks for visit")
+clearBtn.addEventListener("click", () => {
+    screen.innerText = "";  
+    p.pass = "";             
 });
